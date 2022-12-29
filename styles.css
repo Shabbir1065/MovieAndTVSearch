@@ -26,6 +26,11 @@ body{
 }
 
 /* Search bar section */
+h1{
+    background-color: #00b4d8;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94,104,121,0.288);
+}
+
 .search-area{
     /*border: 2px solid blue;*/
     text-align: center;
@@ -35,6 +40,7 @@ body{
 	border: 0;
 	outline: none;
 	color: #8b7d77;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94,104,121,0.288);
 }
 
 .search_wrap{
@@ -97,17 +103,13 @@ body{
 }
 
 /* Search results section */
-h1{
-    background-color: #00b4d8;
-    
-}
-
 .row {
     /* Add a transition effect for the opacity property */
     transition: opacity 0.5s;
   
     /* Set the initial opacity to 0 */
     opacity: 0;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94,104,121,0.288);
   }
   
 /* Add a keyframe animation for the fade-in effect */
