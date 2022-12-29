@@ -104,7 +104,7 @@ searchBtn.addEventListener('click', () => {
 
         //running time
         if (response.results[pos].runningTimeInMinutes) {
-          runtime.innerHTML = "Runtime: " + response.results[pos].runningTimeInMinutes + " minutes";
+          runtime.innerHTML = "Running time: " + response.results[pos].runningTimeInMinutes + " minutes";
         }
 
         //starring
