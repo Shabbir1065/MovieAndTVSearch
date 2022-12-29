@@ -35,7 +35,9 @@ searchBtn.addEventListener('click', () => {
 
       for (let i = 0; i < 5; i++){
         searchResults[i].style.display="none";
+        searchResults[i].classList.remove('fade-in');
       }
+      
 
       let pos = 0;
       for (let i = 0; i < returnLength; i++) {
@@ -118,7 +120,8 @@ searchBtn.addEventListener('click', () => {
 
         //console.log(response.results[pos]); Meant for checking if there are errors
         pos++;
-        searchResults[i].style.display="block";
+        searchResults[i].style.display = "block";
+        searchResults[i].classList.add('fade-in');
       }
       
 
